@@ -51,14 +51,14 @@ Select **one** task from the list below:
 Write a clear, specific prompt for your chosen task and submit it to **at least two**
 of the following platforms:
 
-- ChatGPT (chatgpt.com — use your USC account for GPT-4o access)
+- ChatGPT (chatgpt.com — use your USC account for GPT-5.5 Instant access)
 - Claude (claude.ai)
 - Gemini (gemini.google.com)
 
 **Document for each platform:**
 1. The exact prompt you used (copy-paste verbatim)
 2. The full response (copy-paste or screenshot)
-3. The model version shown (e.g., GPT-4o, Claude Sonnet, Gemini 2.0)
+3. The model version shown (e.g., GPT-5.5, Claude Opus 4.7, Gemini 3.1 Pro)
 
 ---
 

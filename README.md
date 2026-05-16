@@ -49,7 +49,7 @@ Students use ChatGPT (USC license), Claude.ai, and Gemini in their browsers alon
 
 Please complete the following **before** the lab session:
 
-1. **ChatGPT** — log in at [chatgpt.com](https://chatgpt.com) using your USC account (GPT-4o access included)
+1. **ChatGPT** — log in at [chatgpt.com](https://chatgpt.com) using your USC account (GPT-5.5 Instant access included)
 2. **Claude.ai** — create a free account at [claude.ai](https://claude.ai)
 3. **Gemini** — log in at [gemini.google.com](https://gemini.google.com) with your Google account
 4. **R** — make sure R (and ideally RStudio) is installed: [r-project.org](https://www.r-project.org/)
@@ -75,7 +75,7 @@ a ~500-word critical reflection. Full instructions: [homework/hw1.md](homework/h
 | Claude.ai (browser) | Chat AI | Free tier | Excellent for longer reasoning |
 | Gemini (browser) | Chat AI | Free — Google account | Google's flagship model |
 | Google Antigravity | Agentic IDE | Free preview | VS Code fork; Gemini 3.1 powered |
-| Cursor | Agentic IDE | Free tier | Popular VS Code fork; GPT-4o + Claude |
+| Cursor | Agentic IDE | Free tier | Popular VS Code fork; GPT-5.5 + Claude Opus 4.7 |
 | Windsurf | Agentic IDE | Free tier | By Codeium; another solid option |
 | Claude Code | Agentic CLI | Paid subscription | Most capable agentic tool; instructor demos |
 | GitHub Copilot | Code completion | Free — GitHub Education | Good autocomplete; not truly agentic |

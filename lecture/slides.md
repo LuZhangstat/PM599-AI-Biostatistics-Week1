@@ -292,6 +292,7 @@ Repeat this billions of times with enough data and compute, and something remark
 | Mar 2023 | GPT-4 — multimodal, major capability leap | [GPT-4 Tech. Report, 2023](https://arxiv.org/abs/2303.08774) |
 | 2023–25 | Claude 3/4, Gemini, Llama 3 — diverse ecosystem | — |
 | Nov 2025 | Google Antigravity — agentic IDE, free preview | — |
+| 2026 | Gemini 3.1 Pro (Feb) · GPT-5.5 Instant + Claude Opus 4.7 (May) | — |
 
 ---
 
@@ -307,9 +308,9 @@ Repeat this billions of times with enough data and compute, and something remark
 
 | Model | Context window |
 |-------|---------------|
-| GPT-4o | 128,000 tokens (~100,000 words) |
-| Claude Sonnet 4.6 | 200,000 tokens |
-| Gemini 2.0 Flash | 1,000,000 tokens |
+| GPT-5.5 (default ChatGPT, May 2026) | 1,000,000 tokens |
+| Claude Opus 4.7 | 200,000 tokens (~150,000 words) |
+| Gemini 3.1 Pro | 1,000,000 tokens |
 
 Larger context → more history, longer code, bigger datasets to reason over.
 
@@ -337,13 +338,13 @@ Human raters compare output pairs; model reinforced for preferred responses.
 
 | Organization | Model | Strengths |
 |-------------|-------|-----------|
-| OpenAI | GPT-4o, GPT-5.3 | Broad capability; multimodal; wide integrations |
-| Anthropic | Claude Sonnet/Opus 4.6 | Long context; precise reasoning; safety-focused |
-| Google | Gemini 2.0 Flash/Pro | 1M token context; Google ecosystem |
+| OpenAI | GPT-5.5 Instant, GPT-5.5 | Default ChatGPT (May 2026); reduced hallucination on medical/legal/financial prompts |
+| Anthropic | Claude Sonnet 4.6 / Opus 4.7 | Long context; precise reasoning; strongest agentic coding |
+| Google | Gemini 3 Pro / Gemini 3.1 Pro | 1M token context; multimodal reasoning; Google ecosystem |
 | Meta | Llama 3.1 / 3.3 | Open-source; local deployment possible |
 | Mistral | Mistral Large | Open-weight European alternative |
 
-**USC students have free GPT-5.3 access** via the USC–OpenAI collaboration.
+**USC students have free GPT-5.5 Instant access** via the USC–OpenAI collaboration.
 
 ---
 
@@ -498,7 +499,7 @@ Moving beyond chat — **agentic tools** plan, write, run, and iterate on code a
 |------|--------|-------|
 | **Claude Code** | Paid | Reads/writes files, runs terminal; most capable |
 | **Google Antigravity** | Free preview | VS Code fork; Gemini 3.1; multi-agent manager view |
-| **Cursor** | Free tier | VS Code fork; GPT-4o + Claude; widely used |
+| **Cursor** | Free tier | VS Code fork; GPT-5.5 + Claude Opus 4.7; widely used |
 | **Windsurf** | Free tier | By Codeium; solid free option |
 | **GitHub Copilot** | Free (GitHub Edu) | Autocomplete + chat; not truly agentic |
 
@@ -747,7 +748,7 @@ We will practice this in Week 2 and HW1.
 
 **Please complete before arriving:**
 
-1. Sign in to **chatgpt.com** with your USC account (GPT-4o access included)
+1. Sign in to **chatgpt.com** with your USC account (GPT-5.5 Instant access included)
 2. Create a free account at **claude.ai**
 3. Sign in to **gemini.google.com** with your Google account
 4. Confirm **R and RStudio** are installed on your laptop
