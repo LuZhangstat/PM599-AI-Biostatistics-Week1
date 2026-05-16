@@ -466,7 +466,6 @@ A JAMIA study evaluated LLM-based tools for evidence synthesis in health researc
 - AI tools substantially reduce manual screening burden in systematic reviews
 - Performance varies by domain: high for common conditions, lower for rare or complex topics
 - Human-in-the-loop remains essential — AI errors are not random and may be systematic
-- Transparency and reproducibility of AI-assisted searches require documentation
 
 **Bottom line:** AI is a useful co-pilot for evidence synthesis, not a replacement for scientific judgment.
 
@@ -483,9 +482,7 @@ LLMs produce plausible-sounding content that can be factually wrong — and they
 - Systematically wrong formulas applied with apparent confidence (e.g., Schoenfeld sample size errors in *every* trial)
 - Results that vary across runs of the *same* prompt
 
-> **Test in class:** Ask any LLM to cite 5 papers on a narrow biostatistics topic. Check if they exist.
-
-<span class="cite">[Alkaissi & McFarlane, Cureus 2023](https://doi.org/10.7759/cureus.35179) · [Dobler et al., Stat Med 2025](https://doi.org/10.1002/sim.70263)</span>
+> **Test in class:** Ask any LLM to cite 5 papers on a narrow biostatistics topic. Check if they exist. <span class="cite">[Alkaissi & McFarlane, Cureus 2023](https://doi.org/10.7759/cureus.35179) · [Dobler et al., Stat Med 2025](https://doi.org/10.1002/sim.70263)</span>
 
 ---
 
@@ -498,12 +495,11 @@ Moving beyond chat — **agentic tools** plan, write, run, and iterate on code a
 | Tool | Access | Notes |
 |------|--------|-------|
 | **Claude Code** | Paid | Reads/writes files, runs terminal; most capable |
-| **Google Antigravity** | Free preview | VS Code fork; Gemini 3.1; multi-agent manager view |
-| **Cursor** | Free tier | VS Code fork; GPT-5.5 + Claude Opus 4.7; widely used |
-| **Windsurf** | Free tier | By Codeium; solid free option |
-| **GitHub Copilot** | Free (GitHub Edu) | Autocomplete + chat; not truly agentic |
+| **Google Antigravity** | Free preview | VS Code fork; Gemini 3.1; multi-agent view |
+| **Cursor / Windsurf** | Free tier | VS Code forks; GPT-5.5 + Claude Opus 4.7 |
+| **GitHub Copilot** | Free (Edu) | Autocomplete + chat; not truly agentic |
 
-*Lab uses browser-based tools. Agentic IDEs are optional exploration.*
+*Lab uses browser-based tools; agentic IDEs are optional.*
 
 ---
 
@@ -614,9 +610,7 @@ Generative AI is **explicitly prohibited** in the NIH peer review process:
 
 # The Stochastic Parrot Problem
 
-<span class="cite">[Bender et al., FAccT 2021](https://doi.org/10.1145/3442188.3445922)</span>
-
-LLMs produce statistically plausible text — they do not *know* anything.
+LLMs produce statistically plausible text — they do not *know* anything. <span class="cite">[Bender et al., FAccT 2021](https://doi.org/10.1145/3442188.3445922)</span>
 
 **Risks for biostatistical research:**
 - **Hallucination** — invented citations, made-up statistics, nonexistent guidelines
@@ -664,8 +658,6 @@ LLMs produce statistically plausible text — they do not *know* anything.
 - Raise your hand if **yes**
 - Raise your hand if **no**
 - Raise your hand if **it depends**
-
-*Open discussion — 3 minutes.*
 
 ---
 
