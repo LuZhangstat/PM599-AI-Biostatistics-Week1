@@ -179,16 +179,12 @@ prompt from scratch. Try it on two platforms. Share with the group if time allow
 
 ## Activity 3 — Vibe Coding in R, Demo-Led (2:15–2:45 PM)
 
-**Objective:** See vibe coding in action — generating, verifying, and correcting
-R code with AI assistance.
-**Format:** Instructor demonstrates live; students follow along and try one prompt.
+**Objective:** See vibe coding in action — generate, verify, and correct R code with AI assistance.
 
 ### Instructor demo (~20 min)
 
 The instructor walks through `week1/lab/starter_code/vibe_coding_demo.R`:
-- Section 2: Simulates a clinical trial dataset (SBP before/after)
-- Section 3: Box plot of the outcome by group
-- Section 4: Two-sample t-test
+- Sections 2–4: simulate a clinical trial dataset, box plot, two-sample t-test
 - At one `[AI PROMPT]` marker: prompt an LLM live, paste, run, verify the output
 
 > **The golden rule of vibe coding:** You are responsible for every line.
