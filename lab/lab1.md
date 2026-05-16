@@ -50,6 +50,10 @@ Follow the instructor's demonstration to configure data privacy settings:
 - Anthropic does not use Claude.ai conversations to train models by default
 - Verify by checking Settings → Privacy
 
+---
+
+### Privacy Settings (cont.)
+
 **Gemini:**
 1. Go to myactivity.google.com
 2. Find "Gemini Apps Activity" → turn off activity saving
@@ -57,6 +61,8 @@ Follow the instructor's demonstration to configure data privacy settings:
 > **Why this matters:** AI services may use your conversations to retrain models.
 > For research involving preliminary data, unpublished ideas, or anything sensitive,
 > always check privacy settings first.
+
+---
 
 ### Personalize Your LLM
 
@@ -135,6 +141,8 @@ A strong prompt typically provides:
 - **Task:** What exactly do you need?
 - **Format:** How should the answer be structured?
 
+---
+
 ### Exercise
 
 Start with this weak prompt:
@@ -148,6 +156,8 @@ Then improve it through the following steps. Run each version and note what chan
 > health MPH student who just learned about regression. Use an example from
 > environmental health research."
 
+---
+
 **Version 3 — Add format:**
 > "You are a biostatistics professor. Explain confounding to a first-year public
 > health MPH student who just learned about regression. Use an example from
@@ -157,6 +167,8 @@ Then improve it through the following steps. Run each version and note what chan
 
 **Record:** How did the quality and relevance of the answer change at each step?
 Which addition made the biggest difference for you?
+
+---
 
 ### Your Turn
 
@@ -181,6 +193,8 @@ The instructor walks through `week1/lab/starter_code/vibe_coding_demo.R`:
 
 > **The golden rule of vibe coding:** You are responsible for every line.
 > AI-generated code that runs is not necessarily *correct* code.
+
+---
 
 ### Student turn (~10 min)
 
