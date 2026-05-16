@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Copyrighted reading material (excluded from public repo; cite via DOI in reading_list.md)
+readings/Statistics in Medicine - 2025 - Dobler*.pdf
+
+# Build / log artifacts
+*.log
+*.aux
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
