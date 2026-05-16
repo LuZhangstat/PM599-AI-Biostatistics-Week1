@@ -6,7 +6,7 @@ output:
 # Lab 1 — Hands-On with AI Tools and Vibe Coding in R
 
 **Course:** PM599: AI as a Tool for Biostatistics
-**Date:** May 26, 2026 · 1:00–3:50 PM · SSB-114
+**Date:** May 26, 2026 · 1:00–2:50 PM · SSB-114
 **Instructor:** Lu Zhang
 
 ---
@@ -27,16 +27,16 @@ And have **RStudio** (or R) open with the starter script:
 
 | Activity | Time | Description |
 |----------|------|-------------|
-| Setup | 1:00–1:15 | Account checks, privacy settings, personalization |
-| Activity 1 | 1:15–2:00 | Platform comparison |
-| Activity 2 | 2:00–2:45 | Prompt refinement |
-| Break | 2:45–2:50 | 5 min |
-| Activity 3 | 2:50–3:45 | Vibe coding in R |
-| Wrap-up | 3:45–3:50 | Debrief and HW1 overview |
+| Setup | 1:00–1:10 | Account checks, privacy settings, personalization |
+| Activity 1 | 1:10–1:40 | Platform comparison |
+| Activity 2 | 1:40–2:10 | Prompt refinement |
+| Break | 2:10–2:15 | 5 min |
+| Activity 3 | 2:15–2:45 | Vibe coding in R (demo-led) |
+| Wrap-up | 2:45–2:50 | Debrief and HW1 overview |
 
 ---
 
-## Setup (1:00–1:15 PM)
+## Setup (1:00–1:10 PM)
 
 ### Privacy Settings
 
@@ -77,7 +77,7 @@ random effect?" Notice how responses differ after personalization.
 
 ---
 
-## Activity 1 — Platform Comparison (1:15–2:00 PM)
+## Activity 1 — Platform Comparison (1:10–1:40 PM)
 
 **Objective:** Compare how different LLMs respond to the same biostatistics prompts.
 **Format:** Individual work, group discussion at the end.
@@ -110,31 +110,19 @@ misconceptions (e.g., confusing p-value with effect size)? Is it clear?
 
 ---
 
-**Prompt 3 — Generate R code:**
-
-> Write R code to simulate 200 observations from a simple linear regression model:
-> y = 2 + 0.5 * x + noise, where x ~ Normal(0, 1) and noise ~ Normal(0, 1).
-> Then fit the model with lm() and print the summary.
-
-*Things to look for:* Does the code run without errors? Does `set.seed()` appear for
-reproducibility? Are the coefficients recovered approximately correctly?
-
-**Test it:** Copy the R code into RStudio and run it. Does it work?
-
----
-
 ### Discussion Questions
 
 After running the prompts, discuss with your neighbor:
 
 1. Which platform gave the most accurate answer for Prompt 1? Did any make an error?
 2. Did any platform add a disclaimer or hedge its answer? Was that appropriate?
-3. For Prompt 3, did the code run correctly on the first try?
-4. Would you trust these outputs in a research context without verification? Why or why not?
+3. Would you trust these outputs in a research context without verification? Why or why not?
+
+*Note: R-code generation is covered in the Activity 3 demo.*
 
 ---
 
-## Activity 2 — Prompt Refinement (2:00–2:45 PM)
+## Activity 2 — Prompt Refinement (1:40–2:10 PM)
 
 **Objective:** Improve a weak prompt step by step and observe how responses change.
 **Format:** Pairs or individual work.
@@ -155,16 +143,12 @@ Start with this weak prompt:
 
 Then improve it through the following steps. Run each version and note what changes.
 
-**Version 2 — Add role and audience:**
-> "You are a biostatistics professor. Explain confounding to a first-year
-> public health graduate student."
-
-**Version 3 — Add context and task specifics:**
+**Version 2 — Add role, audience, and context:**
 > "You are a biostatistics professor. Explain confounding to a first-year public
 > health MPH student who just learned about regression. Use an example from
 > environmental health research."
 
-**Version 4 — Add format:**
+**Version 3 — Add format:**
 > "You are a biostatistics professor. Explain confounding to a first-year public
 > health MPH student who just learned about regression. Use an example from
 > environmental health research. Structure your answer as:
@@ -176,61 +160,45 @@ Which addition made the biggest difference for you?
 
 ### Your Turn
 
-Pick any biostatistics topic you are curious about and write a Version 4-style
+Pick any biostatistics topic you are curious about and write a Version 3-style
 prompt from scratch. Try it on two platforms. Share with the group if time allows.
 
 ---
 
-## Activity 3 — Vibe Coding in R (2:50–3:45 PM)
+## Activity 3 — Vibe Coding in R, Demo-Led (2:15–2:45 PM)
 
-**Objective:** Use an AI tool to help write, explain, and extend R code for a
-statistical analysis — while practicing human-in-the-loop verification.
-**Format:** Individual, with instructor demonstrations.
+**Objective:** See vibe coding in action — generating, verifying, and correcting
+R code with AI assistance.
+**Format:** Instructor demonstrates live; students follow along and try one prompt.
 
-### Setup
+### Instructor demo (~20 min)
 
-Open the starter script in RStudio:
-```
-week1/lab/starter_code/vibe_coding_demo.R
-```
-
-Run through **Sections 1–4** to understand the base analysis:
+The instructor walks through `week1/lab/starter_code/vibe_coding_demo.R`:
 - Section 2: Simulates a clinical trial dataset (SBP before/after)
-- Section 3: Produces a box plot of the outcome by group
-- Section 4: Runs a two-sample t-test
-
-### AI Prompts to Try
-
-At each `[AI PROMPT]` comment in the script, use ChatGPT, Claude, or Gemini to
-generate the requested code or explanation. Then:
-
-1. **Paste** the AI's output into RStudio
-2. **Run** it
-3. **Verify** — does it do what was asked? Is the output sensible?
+- Section 3: Box plot of the outcome by group
+- Section 4: Two-sample t-test
+- At one `[AI PROMPT]` marker: prompt an LLM live, paste, run, verify the output
 
 > **The golden rule of vibe coding:** You are responsible for every line.
-> An AI that produces runnable code is not necessarily producing *correct* code.
-> If the result looks wrong, it probably is.
+> AI-generated code that runs is not necessarily *correct* code.
 
-### Common Issues to Watch For
+### Student turn (~10 min)
 
-- Does the AI use variable names that match your data frame? (It might invent new ones)
+Open the starter script in RStudio. Pick **one** `[AI PROMPT]` marker and run it
+through ChatGPT, Claude, or Gemini. Paste, run, and verify the result.
+
+**Watch for:**
+- Does the AI use variable names that match your data frame?
 - Does it assume packages are loaded that you haven't loaded?
-- Does a plot look right, or does it silently produce something misleading?
-- Does the AI's verbal explanation of the code match what the code actually does?
+- Does the verbal explanation match what the code actually does?
 
-### Extension Exercise (if time allows)
-
-In Section 6 of the starter script, choose one of three scenarios and ask an AI tool
-to modify the simulation accordingly. Suggested prompt template:
-
-> "I have this R simulation code [paste Section 2 of the script]. Modify it so that
-> [describe your chosen scenario: binary outcome / three groups / add covariate].
-> Then update the statistical test accordingly. Explain what each new line does."
+> **Continue in HW1:** The extension exercise (modify the simulation for a
+> binary outcome / three groups / added covariate) is now part of HW1.
+> See [homework/hw1.md](../homework/hw1.md) for full instructions.
 
 ---
 
-## Wrap-Up and HW1 (3:45–3:50 PM)
+## Wrap-Up and HW1 (2:45–2:50 PM)
 
 **Quick debrief — show of hands:**
 - Who found a factual error in an AI response today?

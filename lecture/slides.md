@@ -173,7 +173,7 @@ Using state-of-the-art AI tools to assist biostatisticians and data scientists �
 | 5 | Thu 6/18, Mon 6/23 | Figures and Tables |
 | 6 | Thu 6/25, Mon 6/30 | Critiquing AI Summaries · Ethics · Presentations |
 
-*Lectures: Thursdays · Labs: Tuesdays · 1–3:50 PM · SSB-114*
+*Lectures: Thursdays · Labs: Tuesdays · 1:00–2:50 PM · SSB-114*
 
 ---
 
@@ -268,31 +268,20 @@ Repeat this billions of times with enough data and compute, and something remark
 
 <!-- _data-topic: "Part 1: LLMs" -->
 
-# A Brief History — Foundations
+# A Brief History of Language Models
 
 | Year | Development | Reference |
 |------|-------------|-----------|
-| Pre-2010 | n-gram models — count-based, very limited context | — |
 | 2013 | Word2Vec — words as dense vectors | [Mikolov et al., 2013](https://arxiv.org/abs/1301.3781) |
-| 2014–2017 | RNNs, LSTMs — sequential processing, longer context | [Hochreiter & Schmidhuber, 1997](https://doi.org/10.1162/neco.1997.9.8.1735) |
 | **2017** | **Transformer — attention mechanism; changed everything** | [**Vaswani et al., NeurIPS 2017**](https://arxiv.org/abs/1706.03762) |
-
-*The transformer paper is the single most consequential development in modern AI.*
-
----
-
-<!-- _data-topic: "Part 1: LLMs" -->
-
-# A Brief History — The Modern Era
-
-| Year | Development | Reference |
-|------|-------------|-----------|
 | 2018–20 | BERT, GPT-1/2 — large-scale pre-training | [Devlin et al., 2019](https://arxiv.org/abs/1810.04805) |
-| Nov 2022 | **ChatGPT** — conversational AI for everyone | OpenAI, Nov 30, 2022 |
+| Nov 2022 | **ChatGPT** — conversational AI for everyone | OpenAI |
 | Mar 2023 | GPT-4 — multimodal, major capability leap | [GPT-4 Tech. Report, 2023](https://arxiv.org/abs/2303.08774) |
 | 2023–25 | Claude 3/4, Gemini, Llama 3 — diverse ecosystem | — |
-| Nov 2025 | Google Antigravity — agentic IDE, free preview | — |
-| 2026 | Gemini 3.1 Pro (Feb) · GPT-5.5 Instant + Claude Opus 4.7 (May) | — |
+| Nov 2025 | Google Antigravity — agentic IDE | — |
+| 2026 | Gemini 3.1 Pro · GPT-5.5 Instant · Claude Opus 4.7 | — |
+
+*The 2017 transformer paper is the single most consequential development in modern AI.*
 
 ---
 
@@ -391,28 +380,18 @@ What is the key difference between **retrieving** stored information and **gener
 
 <!-- _data-topic: "Part 2: AI in Biostatistics" -->
 
-# How Biostatisticians Already Use AI (1/2)
+# How Biostatisticians Already Use AI
 
-**Code writing and debugging**
-Generate R/Python/SAS code from plain language. Explain errors. Translate between languages.
-<span class="cite">Try: [ChatGPT](https://chatgpt.com) · [Claude](https://claude.ai) · [Cursor](https://cursor.com) · [Google Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot)</span>
+**Code writing and debugging** — Generate R/Python/SAS code from plain language. Explain errors. Translate between languages.
+<span class="cite">[ChatGPT](https://chatgpt.com) · [Claude](https://claude.ai) · [Cursor](https://cursor.com) · [Google Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot)</span>
 
-**Literature review and summarization**
-Summarize abstracts at scale, extract results from PDFs, surface related work.
-<span class="cite">Try: [Semantic Scholar](https://www.semanticscholar.org) · [NotebookLM](https://notebooklm.google.com) · [Perplexity](https://www.perplexity.ai) · [Consensus](https://consensus.app)</span>
+**Literature review** — Summarize abstracts at scale, extract results from PDFs, surface related work.
+<span class="cite">[Semantic Scholar](https://www.semanticscholar.org) · [NotebookLM](https://notebooklm.google.com) · [Perplexity](https://www.perplexity.ai) · [Consensus](https://consensus.app)</span>
 
----
+**Data wrangling** — Write cleaning scripts from a problem description. Handle messy formats, missing values, inconsistent coding — tedious but not algorithmically novel.
 
-<!-- _data-topic: "Part 2: AI in Biostatistics" -->
-
-# How Biostatisticians Already Use AI (2/2)
-
-**Data wrangling**
-Write cleaning scripts from a description of the problem. Handle messy formats, missing values, and inconsistent coding — tasks that are tedious but not algorithmically novel.
-
-**Scientific writing**
-Draft methods sections, interpret results for lay audiences, translate findings for clinicians and policy makers. Specialized tools exist for academic and grant writing.
-<span class="cite">Try: [Jenni.ai](https://jenni.ai) · [Paperpal](https://paperpal.com) · [Thesify](https://thesify.ai) · [Grantable](https://grantable.co) · [Grail](https://www.grail.com)</span>
+**Scientific writing** — Draft methods sections, translate findings for clinicians and policy makers; specialized tools for academic/grant writing.
+<span class="cite">[Jenni.ai](https://jenni.ai) · [Paperpal](https://paperpal.com) · [Thesify](https://thesify.ai) · [Grantable](https://grantable.co) · [Grail](https://www.grail.com)</span>
 
 ---
 
@@ -708,37 +687,7 @@ Same topic. Dramatically different result.
 
 Not every prompt needs all four — but adding them almost always helps.
 
----
-
-<!-- _data-topic: "Part 4: Prompting" -->
-
-# One Simple Improvement Goes a Long Way
-
-**Original:** *"What does a confidence interval mean?"*
-
-**With role + audience:**
-> "You are a biostatistician explaining confidence intervals to a cardiologist reviewing a clinical trial paper. Use one concrete example with numbers."
-
-**The key habit:** Before submitting a prompt, ask yourself: *Did I tell the AI who I am, what I need, and how I want it presented?*
-
-We will practice this in Week 2 and HW1.
-
----
-
-<!-- _data-topic: "Part 4: Prompting" -->
-
-# Live Demo
-
-**Scenario:** Interpret a result from a recent biostatistics paper.
-
-*The instructor will paste a figure or result and prompt Claude or ChatGPT live.*
-
-**Watch for:**
-- How the prompt is constructed
-- What the AI gets right — and what it misses or oversimplifies
-- How a follow-up prompt improves the response
-
-**Suggest prompts or follow-up questions** — call them out.
+*Live RCTF demo + deeper practice next week (Week 2: Prompt Engineering).*
 
 ---
 
@@ -832,7 +781,7 @@ Division of Biostatistics · USC Keck School of Medicine
 
 # Lab 1 Preview
 
-## Tuesday, May 26 · SSB-114 · 1:00–3:50 PM
+## Tuesday, May 26 · SSB-114 · 1:00–2:50 PM
 
 **Bring:** Laptop with R/RStudio · browser tabs open for ChatGPT, Claude, Gemini
 

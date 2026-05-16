@@ -2,7 +2,7 @@
 
 **Course:** PM599: AI as a Tool for Biostatistics
 **Instructor:** Lu Zhang, Division of Biostatistics, USC Keck School of Medicine
-**Sessions:** May 21, 2026, Thursday (Lecture) · May 26, 2026, Tuesday (Lab)
+**Sessions:** May 21, 2026, Thursday (Lecture) · May 26, 2026, Tuesday (Lab) · 1:00–2:50 PM · SSB-114
 
 ---
 
@@ -20,28 +20,30 @@
 
 ## What We Cover This Week
 
-### Lecture — May 21 (3 hours)
+### Lecture — May 21 (2 hours)
 
 | Part | Duration | Topic |
 |------|----------|-------|
-| 0 — Course Overview | 15 min | Syllabus, grading, schedule, course philosophy |
-| 1 — The LLM Landscape | 50 min | How LLMs work; major models; when to use what |
-| 2 — AI in Biostatistics | 40 min | Applications, case studies, agentic coding tools |
+| 0 — Course Overview | 10 min | Syllabus, grading, schedule, course philosophy |
+| 1 — The LLM Landscape | 25 min | How LLMs work; major models; when to use what |
+| 2 — AI in Biostatistics | 30 min | Applications, case studies, agentic coding tools |
 | 3 — Ethics & Responsible Use | 25 min | Journal policies (NEJM AI, Oxford Bioinformatics), NIH grant policy, researcher accountability |
-| 4 — Prompt Engineering | 25 min | RCTF framework, weak vs. strong prompts, live demo |
+| 4 — Prompt Engineering | 10 min | RCTF framework, weak vs. strong prompts (deep dive next week) |
+| Privacy setup + lab preview + Q&A | 10 min | |
 
-### Lab — May 26, Tuesday (3 hours)
+### Lab — May 26, Tuesday (2 hours)
 
 Fully hands-on and browser-based — no special software installation required.
 Students use ChatGPT (USC license), Claude.ai, and Gemini in their browsers alongside R.
 
 | Activity | Duration | Description |
 |----------|----------|-------------|
-| Setup | 15 min | Account checks; orientation |
-| Activity 1 | 45 min | Platform comparison: run identical prompts across ≥2 LLMs |
-| Activity 2 | 45 min | Prompt refinement: turn a weak prompt into a strong one |
-| Activity 3 | 60 min | Vibe coding in R with AI assistance |
-| Wrap-up | 15 min | Debrief and HW1 introduction |
+| Setup | 10 min | Account checks; orientation |
+| Activity 1 | 30 min | Platform comparison: run identical prompts across ≥2 LLMs |
+| Activity 2 | 30 min | Prompt refinement: turn a weak prompt into a strong one |
+| Break | 5 min | |
+| Activity 3 | 30 min | Vibe coding in R (instructor demo + short student turn) |
+| Wrap-up | 5 min | Debrief and HW1 introduction |
 
 ---
 
