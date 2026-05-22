@@ -167,11 +167,11 @@ Using state-of-the-art AI tools to assist biostatisticians and data scientists �
 | Week | Dates | Topic |
 |------|-------|-------|
 | **1** | Thu 5/21, Tue 5/26 | **Intro to LLMs · Generative AI in Biostatistics** |
-| 2 | Thu 5/28, Mon 6/2 | Prompt Engineering |
-| 3 | Thu 6/4, Mon 6/9 | AI-Assisted Data Cleaning · Data Privacy |
-| 4 | Thu 6/11, Mon 6/16 | Statistical Analysis · Bias |
-| 5 | Thu 6/18, Mon 6/23 | Figures and Tables |
-| 6 | Thu 6/25, Mon 6/30 | Critiquing AI Summaries · Ethics · Presentations |
+| 2 | Thu 5/28, Tue 6/2 | Prompt Engineering |
+| 3 | Thu 6/4, Tue 6/9 | AI-Assisted Data Cleaning · Data Privacy |
+| 4 | Thu 6/11, Tue 6/16 | Statistical Analysis · Bias |
+| 5 | Thu 6/18, Tue 6/23 | Figures and Tables |
+| 6 | Thu 6/25, Tue 6/30 | Critiquing AI Summaries · Ethics · Presentations |
 
 *Lectures: Thursdays · Labs: Tuesdays · 1:00–2:50 PM · SSB-114*
 
@@ -412,7 +412,7 @@ Write cleaning scripts from a description of the problem. Handle messy formats, 
 
 **Scientific writing**
 Draft methods sections, interpret results for lay audiences, translate findings for clinicians and policy makers. Specialized tools exist for academic and grant writing.
-<span class="cite">Try: [Jenni.ai](https://jenni.ai) · [Paperpal](https://paperpal.com) · [Thesify](https://thesify.ai) · [Grantable](https://grantable.co) · [Grail](https://www.grail.com)</span>
+<span class="cite">Try: [Jenni.ai](https://jenni.ai) · [Paperpal](https://paperpal.com) · [Thesify](https://thesify.ai) · [Grantable](https://grantable.co) · [Grail](https://grailai.io)</span>
 
 ---
 
@@ -436,22 +436,20 @@ Dobler et al. tested ChatGPT on the Schoenfeld formula across multiple runs.
 
 <!-- _data-topic: "Part 2: AI in Biostatistics" -->
 
-# Case Study 2: LLMs in Clinical Medicine
+# Case Study 2: Rare Disease Diagnosis
 
-**GPT-4 passed all three USMLE steps** at or above the passing threshold.
-<span class="cite">[Kung et al., PLOS Digit Health 2023](https://doi.org/10.1371/journal.pdig.0000198)</span>
+**ChatGPT reached or approached the USMLE passing threshold** — but standardized exams are the easy case. <span class="cite">[Kung et al., PLOS Digit Health 2023](https://doi.org/10.1371/journal.pdig.0000198)</span>
 
-**But performance varies by case type:**
+**DeepRare** — an LLM multi-agent system tested on **6,401 cases**, **2,919 rare diseases**:
 
-| Case type | Agreement with attending physicians |
-|-----------|-------------------------------------|
-| Overall | 73% |
-| Rare conditions | 52% |
-| Social determinants of health | 61% |
+| Input to DeepRare | Top-1 diagnosis accuracy |
+|-------------------|--------------------------|
+| Symptoms only (HPO terms) | 57.2% |
+| Symptoms + genetic data | 70.6% |
 
-<span class="cite">[Thirunavukarasu et al., Lancet Digit Health 2023](https://doi.org/10.1016/S2589-7500(23)00083-3)</span>
+<span class="cite">[Zhao et al., *Nature* 2026](https://www.nature.com/articles/s41586-025-10097-9)</span>
 
-LLMs degrade on edge cases — exactly where biostatistical precision matters most.
+Beats Exomiser (53.2%) and the best general LLM (33.4%) — yet top-1 accuracy is still ~57–71%. **Verification stays essential.**
 
 ---
 

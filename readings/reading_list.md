@@ -86,9 +86,16 @@ simulation studies, and R code translation.
 
 **Thirunavukarasu AJ et al. (2023)**
 "Large language models in medicine"
-*The Lancet Digital Health*
+*Nature Medicine*, 29:1930–1940 — DOI: [10.1038/s41591-023-02448-8](https://doi.org/10.1038/s41591-023-02448-8)
 - Comprehensive overview of LLM capabilities and limitations in clinical and research
   settings. A foundational survey of where the field stands.
+
+**Zhao W et al. (2026)**
+"An agentic system for rare disease diagnosis with traceable reasoning"
+*Nature* — DOI: [10.1038/s41586-025-10097-9](https://doi.org/10.1038/s41586-025-10097-9)
+- DeepRare, a multi-agent LLM system for rare-disease differential diagnosis. A concrete
+  example of agentic design, tool use, and traceable reasoning — and honest reporting of
+  the error rates that remain (top-1 accuracy ~57–71%).
 
 **Kung TH et al. (2023)**
 "Performance of ChatGPT on USMLE: Potential for AI-Assisted Medical Education"
