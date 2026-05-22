@@ -27,6 +27,7 @@ Select **one** task from the list below:
 **Option A:** Explain the assumptions of linear regression to a non-statistician.
 
 **Option B:** Interpret the following result in plain language:
+
 > In a logistic regression model predicting 30-day hospital readmission, the odds ratio
 > for the variable "diabetes" was 1.84 (95% CI: 1.21–2.79, p = 0.004), adjusted for age,
 > sex, and insurance status.
@@ -56,6 +57,7 @@ of the following platforms:
 - Gemini (gemini.google.com)
 
 **Document for each platform:**
+
 1. The exact prompt you used (copy-paste verbatim)
 2. The full response (copy-paste or screenshot)
 3. The model version shown (e.g., GPT-5.5, Claude Opus 4.7, Gemini 3.1 Pro)
@@ -65,6 +67,7 @@ of the following platforms:
 ## Step 3 — Try One Simple Improvement
 
 Make **one** change to your original prompt to improve the response. For example:
+
 - Specify your background (e.g., "I am a biostatistics graduate student")
 - Ask for a specific format (e.g., "Answer in three bullet points")
 - Specify the audience (e.g., "Explain as if to a public health practitioner with no
@@ -82,18 +85,22 @@ small improvement and observe what happens.
 Write a reflection addressing the following questions. A coherent narrative is fine.
 
 **Comparison:**
+
 - How did the two platforms differ? Consider accuracy, clarity, and completeness.
 - Did either platform produce anything you were skeptical of? How would you verify it?
 
 **Your prompt change:**
+
 - What happened when you modified your prompt? Was the response noticeably different?
 
 **Critical reflection:**
+
 - Where did AI help, and where did it fall short for this task?
 - Would you use AI assistance like this in your own research? What safeguards would
   you apply?
 
 **Ethics (2–3 sentences):**
+
 - Based on the journal policies discussed in Week 1, what would you need to disclose
   if you used AI assistance while drafting a methods section for submission to
   *NEJM AI* or *Bioinformatics*?
