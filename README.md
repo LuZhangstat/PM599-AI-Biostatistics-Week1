@@ -81,3 +81,43 @@ a ~500-word critical reflection. Full instructions: [homework/hw1.md](homework/h
 | Windsurf | Agentic IDE | Free tier | By Codeium; another solid option |
 | Claude Code | Agentic CLI | Paid subscription | Most capable agentic tool; instructor demos |
 | GitHub Copilot | Code completion | Free — GitHub Education | Good autocomplete; not truly agentic |
+
+---
+
+## Building the PDFs
+
+The handouts are written in Markdown and compiled to PDF. The two slide decks use
+**Marp**; the homework uses **pandoc** so it renders as a flowing document instead
+of fixed-size slides.
+
+### One-time setup
+
+```bash
+brew install marp-cli pandoc      # Marp (slides) + pandoc (homework)
+brew install --cask mactex        # LaTeX engine for XeLaTeX (large; BasicTeX also works)
+```
+
+### Compile
+
+Run these from the `week1/` directory:
+
+```bash
+# Lecture slides  →  lecture/slides.pdf
+marp lecture/slides.md -o lecture/slides.pdf
+
+# Lab worksheet   →  lab/lab1.pdf
+marp lab/lab1.md -o lab/lab1.pdf
+
+# Homework 1      →  homework/hw1.pdf   (flowing document, not slides)
+pandoc homework/hw1.md -o homework/hw1.pdf --pdf-engine=xelatex \
+  -V geometry:margin=1in -V fontsize=11pt -V colorlinks=true \
+  -V header-includes='\usepackage{newunicodechar}\newunicodechar{≥}{\ensuremath{\geq}}'
+```
+
+### Notes
+
+- **Slide decks** (`slides.md`, `lab1.md`) split into a new page on every `---`.
+  Keep each section short enough to fit one slide, or content overflows the frame.
+- **`hw1.md`** is a continuous document — compile it with pandoc, *not* Marp. The
+  `newunicodechar` option maps the `≥` symbol, which the default LaTeX font lacks.
+- Live slide preview while editing: `marp -p -w lecture/slides.md`.
