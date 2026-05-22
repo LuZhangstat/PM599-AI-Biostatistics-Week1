@@ -445,11 +445,11 @@ Dobler et al. tested ChatGPT on the Schoenfeld formula across multiple runs.
 | Input to DeepRare | Top-1 diagnosis accuracy |
 |-------------------|--------------------------|
 | Symptoms only (HPO terms) | 57.2% |
-| Symptoms + genetic data | 70.6% |
+| Symptoms + genetic data | 69.1% |
 
 <span class="cite">[Zhao et al., *Nature* 2026](https://www.nature.com/articles/s41586-025-10097-9)</span>
 
-Beats Exomiser (53.2%) and the best general LLM (33.4%) — yet top-1 accuracy is still ~57–71%. **Verification stays essential.**
+Beats Exomiser (55.9%) and the best general LLM (33.4%) — yet top-1 accuracy is still ~57–69%. **Verification stays essential.**
 
 ---
 
